@@ -1,0 +1,26 @@
+service:
+  name: moia-edge-gateway
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: eu-central-1
+  stage: dev
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
+functions:
+  graphql:
+    # this is formatted as <FILENAME>.<HANDLER>
+    handler: graphql.graphqlHandler
+    events:
+      - http:
+          path: graphql
+          method: post
+          cors: true
+      - http:
+          path: graphql
+          method: get
+          cors: true

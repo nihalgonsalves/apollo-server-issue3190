@@ -1,0 +1,29 @@
+{
+  "name": "apollo-server-issue3190",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphql.ts",
+  "scripts": {
+    "run-gateway": "sls offline",
+    "run-service": "ts-node service-a.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.8.0",
+    "@apollo/gateway": "^0.8.2",
+    "apollo-server": "^2.8.2",
+    "apollo-server-lambda": "^2.8.2",
+    "graphql": "^14.5.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "@types/node": "^12.7.2",
+    "serverless": "^1.50.0",
+    "serverless-offline": "^5.10.1",
+    "serverless-plugin-typescript": "^1.1.9",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "author": "Nihal Gonsalves",
+  "license": ""
+}
