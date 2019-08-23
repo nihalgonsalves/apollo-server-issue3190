@@ -12,17 +12,17 @@
     apollo-server-env "2.4.1"
     lodash.xorby "^4.7.0"
 
-"@apollo/gateway@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@apollo/gateway/-/gateway-0.8.2.tgz#ea91a0436cc34e4fdec831cfba5e28b62cabda6a"
-  integrity sha512-Z3UaNJaeopQj01RlXlZGY7KzTK8bmmG3bLhNUkdq1Oe/wIG3uYjg/a/7AhRFkGIDyN1KuSo/8AsHndGutyE9TQ==
+"@apollo/gateway@^0.9.0":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@apollo/gateway/-/gateway-0.9.1.tgz#10228f0f2682848554ff1fae12d72e458aa138bf"
+  integrity sha512-rZg+h8m/JnQXZ4l+zpCCa4awoXVcQP9JWCv17yRTp6nOTwyLgF9aZNhbC1Z5EzlX5wul19P3s16PXz4cPqPCoQ==
   dependencies:
     "@apollo/federation" "0.8.0"
     apollo-engine-reporting-protobuf "0.4.0"
     apollo-env "^0.5.1"
     apollo-graphql "^0.3.3"
     apollo-server-caching "0.5.0"
-    apollo-server-core "2.8.1"
+    apollo-server-core "2.8.2"
     apollo-server-env "2.4.1"
     apollo-server-types "0.2.1"
     loglevel "^1.6.1"
@@ -870,33 +870,6 @@ apollo-server-caching@0.5.0:
   integrity sha512-l7ieNCGxUaUAVAAp600HjbUJxVaxjJygtPV0tPTe1Q3HkPy6LEWoY6mNHV7T268g1hxtPTxcdRu7WLsJrg7ufw==
   dependencies:
     lru-cache "^5.0.0"
-
-apollo-server-core@2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/apollo-server-core/-/apollo-server-core-2.8.1.tgz#e5fadb3fe1fadd009d1b06a46cb44ec8692bf3fb"
-  integrity sha512-BpvhKdycTI1v5n8biJ5c/DVF7MCbTL3JtB9llHGkqYgHaTH1gXguh2qD8Vcki+rpUNO5P1lcj5V6oVXoSUFXlA==
-  dependencies:
-    "@apollographql/apollo-tools" "^0.4.0"
-    "@apollographql/graphql-playground-html" "1.6.24"
-    "@types/graphql-upload" "^8.0.0"
-    "@types/ws" "^6.0.0"
-    apollo-cache-control "0.8.1"
-    apollo-datasource "0.6.1"
-    apollo-engine-reporting "1.4.3"
-    apollo-server-caching "0.5.0"
-    apollo-server-env "2.4.1"
-    apollo-server-errors "2.3.1"
-    apollo-server-plugin-base "0.6.1"
-    apollo-server-types "0.2.1"
-    apollo-tracing "0.8.1"
-    fast-json-stable-stringify "^2.0.0"
-    graphql-extensions "0.9.1"
-    graphql-tag "^2.9.2"
-    graphql-tools "^4.0.0"
-    graphql-upload "^8.0.2"
-    sha.js "^2.4.11"
-    subscriptions-transport-ws "^0.9.11"
-    ws "^6.0.0"
 
 apollo-server-core@2.8.2:
   version "2.8.2"
