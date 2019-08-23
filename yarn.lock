@@ -12,7 +12,7 @@
     apollo-server-env "2.4.1"
     lodash.xorby "^4.7.0"
 
-"@apollo/gateway@^0.9.0":
+"@apollo/gateway@^0.9.1":
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/@apollo/gateway/-/gateway-0.9.1.tgz#10228f0f2682848554ff1fae12d72e458aa138bf"
   integrity sha512-rZg+h8m/JnQXZ4l+zpCCa4awoXVcQP9JWCv17yRTp6nOTwyLgF9aZNhbC1Z5EzlX5wul19P3s16PXz4cPqPCoQ==
